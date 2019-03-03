@@ -1,5 +1,7 @@
-This is library written in C++ which contains some useful structures and functions that are based on linear algebra and are commonly used in computer graphics.
-Structures: vector2, vector3, vector4, matrix2, matrix3, matrix4.
+This is library written in C++ which contains some useful structures and functions that are based on linear algebra and are commonly used in computer graphics.	
+Library provides an easy way to do vector dot products, cross products, vector-matrix multiplications and many more.
+Structures: 
+	vector2, vector3, vector4, matrix2, matrix3, matrix4.
 Functions:
 	//Function creates rotation matrix to rotate 3D vector along the Z axis at an angle "angle".
 	matrix4 RotationMatrixZ(float angle);
@@ -61,4 +63,3 @@ Functions:
 	//Function generates texture coordinates for mesh. Texture is projected spherically.
 	void GenerateSphericalTexCoords(const vector3* vertices, vector2* coords, unsigned count, float uOffset, float vOffset, bool uInverse, float uTile, float vTile);
 	
-Library provides an easy way to do vector dot products, cross products, vector-matrix multiplications and many more.
