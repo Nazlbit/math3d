@@ -1,4 +1,5 @@
 This is library written in C++ which contains some useful structures and functions that are based on linear algebra and are commonly used in computer graphics.	
+
 Library provides an easy way to do vector dot products, cross products, vector-matrix multiplications and many more.
 
 Structures: vector2, vector3, vector4, matrix2, matrix3, matrix4.
